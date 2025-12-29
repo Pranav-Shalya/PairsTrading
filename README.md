@@ -1,14 +1,16 @@
-📈 Pairs Trading Strategy using Cointegration (Python)
-📌 Project Overview
+**📈 Pairs Trading Strategy using Cointegration (Python)**
+
+**📌 Project Overview**
 
 This project implements a Pairs Trading (Statistical Arbitrage) strategy using Python.
 The objective is to identify cointegrated stock pairs from the Indian equity market and exploit mean-reversion in their price spread through a market-neutral long–short trading strategy.
 
 Pairs trading is widely used by hedge funds and quantitative trading desks as it minimizes exposure to overall market movements and focuses on relative mispricing between assets.
 
-🎯 Problem Statement
+**🎯 Problem Statement**
 
 Financial markets often exhibit short-term inefficiencies where the relative prices of economically related stocks diverge temporarily.
+
 The challenge is to:
 
 Identify stock pairs that share a stable long-term relationship
@@ -17,7 +19,7 @@ Detect deviations from this equilibrium
 
 Design a systematic strategy to profit when prices revert to their mean
 
-🧠 Key Concepts Used
+**🧠 Key Concepts Used**
 
 Correlation Analysis
 
@@ -31,7 +33,7 @@ Z-score based Trading Signals
 
 Statistical Arbitrage
 
-📊 Dataset
+**📊 Dataset**
 
 Universe: Selected stocks from the NIFTY 50 index
 
@@ -41,7 +43,7 @@ Frequency: Daily closing prices
 
 Time Horizon: Multiple years of historical data
 
-🛠️ Tools & Technologies
+**🛠️ Tools & Technologies**
 
 Python
 
@@ -53,7 +55,8 @@ Matplotlib & Seaborn – Data visualization
 
 YFinance / Niftystocks – Market data retrieval
 
-🔁 Project Workflow
+**🔁 Project Workflow**
+
 1️⃣ Data Collection & Preprocessing
 
 Retrieved historical stock prices for all selected NIFTY stocks
@@ -94,6 +97,7 @@ Var
 (
 𝑋
 )
+
 β=
 Var(X)
 Cov(Y,X)
@@ -150,6 +154,7 @@ Calculated Z-score of the spread:
 −
 𝜇
 𝜎
+
 Z=
 σ
 Spread−μ
@@ -164,7 +169,7 @@ Z-score < –1 → Long spread (Buy A, Sell B)
 
 Z-score ≈ 0 → Exit position
 
-7️⃣ Backtesting & Visualization
+**7️⃣ Backtesting & Visualization**
 
 Simulated trades using historical data
 
@@ -178,7 +183,7 @@ Entry and exit points
 
 Evaluated performance qualitatively and quantitatively
 
-📈 Key Insights
+**📈 Key Insights**
 
 High correlation does not guarantee cointegration
 
@@ -188,7 +193,7 @@ Strategy performs best in sideways or range-bound markets
 
 Mean reversion is the core profit driver
 
-⚠️ Challenges Faced
+**⚠️ Challenges Faced**
 
 Dependency conflicts (statsmodels, scipy)
 
@@ -198,7 +203,7 @@ Handling missing and misaligned time-series data
 
 Preventing false positives in cointegration tests
 
-📚 Learnings
+**📚 Learnings**
 
 Practical application of time-series econometrics
 
@@ -222,11 +227,12 @@ Deployment via Streamlit dashboard
 
 Extension to crypto and forex markets
 
-▶️ How to Run
+**▶️ How to Run**
+
 pip install -r requirements.txt
 jupyter notebook
 
-📄 Requirements
+**📄 Requirements**
 pandas
 numpy
 yfinance
@@ -234,7 +240,7 @@ statsmodels
 matplotlib
 seaborn
 
-👤 Author
+**👤 Author**
 
 Pranav Shalya
 Machine Learning & Quantitative Finance Enthusiast
