@@ -81,32 +81,7 @@ Selected pairs with statistically significant p-values (p < 0.05)
 
 Ensured that selected pairs exhibit long-term equilibrium
 
-4️⃣ Hedge Ratio Calculation
-
-Estimated hedge ratio using:
-
-𝛽
-=
-Cov
-(
-𝑌
-,
-𝑋
-)
-Var
-(
-𝑋
-)
-
-β=
-Var(X)
-Cov(Y,X)
-	​
-
-
-Hedge ratio determines the relative position sizing between two stocks
-
-Used to construct a stationary spread
+<img width="1054" height="386" alt="image" src="https://github.com/user-attachments/assets/a4fecccc-814d-4a4b-957f-7f832cfdeec5" />
 
 5️⃣ Spread Construction
 
