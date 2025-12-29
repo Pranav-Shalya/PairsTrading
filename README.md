@@ -109,6 +109,7 @@ Hedge ratio determines the relative position sizing between two stocks
 Used to construct a stationary spread
 
 5️⃣ Spread Construction
+
 Spread
 =
 𝑃
