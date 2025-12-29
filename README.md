@@ -83,67 +83,10 @@ Ensured that selected pairs exhibit long-term equilibrium
 
 <img width="1054" height="386" alt="image" src="https://github.com/user-attachments/assets/a4fecccc-814d-4a4b-957f-7f832cfdeec5" />
 
-5️⃣ Spread Construction
+<img width="948" height="215" alt="image" src="https://github.com/user-attachments/assets/a542e6cf-ab50-4901-9dab-5822ca0db4d3" />
 
-Spread
-=
-𝑃
-𝑟
-𝑖
-𝑐
-𝑒
-𝐴
-−
-𝛽
-×
-𝑃
-𝑟
-𝑖
-𝑐
-𝑒
-𝐵
-Spread=Price
-A
-	​
+<img width="987" height="388" alt="image" src="https://github.com/user-attachments/assets/786fde9c-716b-4aab-b782-197d05b44163" />
 
-−β×Price
-B
-	​
-
-
-The spread represents relative mispricing
-
-Stationarity of the spread confirms mean reversion
-
-6️⃣ Trading Strategy (Signal Generation)
-
-Calculated Z-score of the spread:
-
-𝑍
-=
-𝑆
-𝑝
-𝑟
-𝑒
-𝑎
-𝑑
-−
-𝜇
-𝜎
-
-Z=
-σ
-Spread−μ
-	​
-
-
-Trading Rules:
-
-Z-score > +1 → Short spread (Sell A, Buy B)
-
-Z-score < –1 → Long spread (Buy A, Sell B)
-
-Z-score ≈ 0 → Exit position
 
 **7️⃣ Backtesting & Visualization**
 
